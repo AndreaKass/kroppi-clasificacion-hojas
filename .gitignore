@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos del dataset
+data/raw/
+data/processed/
+
+# Modelos y archivos pesados
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
